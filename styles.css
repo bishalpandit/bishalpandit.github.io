@@ -196,7 +196,7 @@
 
   .hero {
 
-    background-image: url("img/hero.jpg");
+    background-image: url("/hero.jpg");
     height: 100vh;
     background-repeat: no-repeat;
   background-attachment: fixed;
