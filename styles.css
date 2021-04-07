@@ -1,8 +1,3 @@
-.hero {
-
-    background-image: url("/hero.jpg");
-    height: 100vh;
-  }
 
 .navbar-b {
     transition: all .5s ease-in-out;
@@ -197,6 +192,16 @@
     top: 10px;
     transform: rotate(-135deg);
     opacity: 0.9;
+  }
+
+  .hero {
+
+    background-image: url("img/hero.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   }
 
   
