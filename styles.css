@@ -235,13 +235,9 @@
     
     .intro-subtitle, .title-txt {
 
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
-    .hero {
-
-      transform: scale(1.4,1.4);
-    }
   } 
   
    .text-slider-items {
