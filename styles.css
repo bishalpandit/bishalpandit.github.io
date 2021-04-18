@@ -3,6 +3,17 @@
   color: #fff;
 }
 
+.hero {
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: .9;
+  }
+
 .navbar-b {
     transition: all .5s ease-in-out;
     background-color: transparent;
@@ -198,16 +209,7 @@
     opacity: 0.9;
   }
 
-  .hero {
-
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: .9;
-  }
+  
 
    .intro-subtitle {
     font-size: 1.7rem;
