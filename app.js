@@ -8,3 +8,11 @@ if ($('.text-slider').length == 1) {
       backSpeed: 30
     });
   }
+
+  $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(200).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
