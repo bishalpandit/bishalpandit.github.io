@@ -145,6 +145,7 @@
   .navbar-b .dropdown-menu {
     margin: 1.12rem 0 0;
     border-radius: 0;
+    
   }
   
   .navbar-b .dropdown-menu .dropdown-item {
@@ -157,6 +158,8 @@
   /*--/ Hamburger Navbar /--*/
   .navbar-toggler {
     position: relative;
+    left: 85%;
+    
   }
   
   .navbar-toggler:focus,
@@ -174,6 +177,7 @@
     transform: rotate(0deg);
     left: 0;
     opacity: 1;
+    
   }
   
   .navbar-toggler span:nth-child(1),
@@ -204,6 +208,12 @@
   }
 
   /* Header */
+
+
+  .brand {
+
+    padding: 2rem;
+  }
 
 
   .hero {
@@ -239,7 +249,7 @@
     transform: translate(-50%,-50%);
   }
  
-   @media (max-width: 766px) {
+   @media (max-width: 768px) {
     
     .intro-subtitle {
 
@@ -256,11 +266,12 @@
 
     .about-section {
 
-      height: 60vh !important;
-      padding: 3rem 2rem !important;
+      height: 45vh !important;
+      padding: 2rem 1.5rem !important;
       line-height: 24px;
       font-family: 'Roboto', sans-serif;
-  
+      width: 70vw !important;
+
     }
 
   } 
@@ -294,10 +305,8 @@
   margin: 0 auto;
   box-shadow: 1px 2px 3px rgba(8, 8, 8, 0.952);
   border-radius: 1rem;
-  background-color: #222222;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background: #ff5f6d;
   background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
   background: linear-gradient(to right, #ff5f6d, #ffc371);
   
@@ -352,12 +361,13 @@
 
     text-align: center;
     border-radius: 1rem;
-    margin: 0 auto;
     padding: 2rem;
+    height: 45vh;
+    line-height: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    width: 60vw;
-    margin: 2rem auto;
+    width: 70vw;
+    margin: 3rem auto;
     
    
   }
