@@ -287,6 +287,7 @@
 
   height: 90vh;
   background-color: #1A1C1E;
+  opacity: 0.94;
 }
 
 .about-title {
@@ -317,6 +318,7 @@
 #project {
 
   background-color: #1A1C1E;
+  opacity: 0.94;
 
 }
 
