@@ -313,6 +313,19 @@
   
 }
 
+.social-icons {
+
+  text-align: center;
+  margin: 4rem 0;
+
+}
+
+.icon {
+
+  font-size: 2.2rem;
+  padding: 1rem;
+}
+
 /* Project */
 
 #project {
