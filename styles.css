@@ -401,7 +401,7 @@ html {
     text-align: justify;
     border-radius: 1rem;
     padding: 2rem;
-    height: 50vh;
+    height: 55vh;
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -427,15 +427,15 @@ html {
 
 .proj1 {
 
-
-background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
+  background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 
 }
 
 .proj2 {
-  
-  background: linear-gradient(120deg, #362F6B, #97298D);
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
 
 
@@ -443,7 +443,8 @@ background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
 
 .proj3 {
 
-  background-image: linear-gradient(120deg, #055C48, #15B06F);
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 
 }
 
@@ -661,14 +662,13 @@ background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
 .btn:link, .btn:visited {
 
   text-decoration: none;
-  color: black;
+  color: grey;
   display: inline-block;
   background-color: white;
   border: 2px solid white;
   border-radius: 100px;
   padding: 10px 25px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
   transition: all .2s;
 }
 
@@ -727,4 +727,8 @@ footer {
   padding: 0px 15px;
 }
 
+footer p {
 
+  text-align: center;
+  padding: 1rem 0;
+}
