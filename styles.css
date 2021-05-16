@@ -401,7 +401,7 @@ html {
     text-align: justify;
     border-radius: 1rem;
     padding: 2rem;
-    height: 55vh;
+    height: 50vh;
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -427,15 +427,15 @@ html {
 
 .proj1 {
 
-  background-color: #08AEEA;
-background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
 
 
 }
 
 .proj2 {
-  background: rgb(63,94,251);
-  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  
+  background: linear-gradient(120deg, #362F6B, #97298D);
 
 
 
@@ -443,8 +443,7 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 .proj3 {
 
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-image: linear-gradient(120deg, #055C48, #15B06F);
 
 }
 
@@ -662,13 +661,14 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 .btn:link, .btn:visited {
 
   text-decoration: none;
-  color: grey;
+  color: black;
   display: inline-block;
   background-color: white;
   border: 2px solid white;
   border-radius: 100px;
   padding: 10px 25px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   transition: all .2s;
 }
 
