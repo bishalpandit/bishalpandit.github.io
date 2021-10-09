@@ -65,6 +65,4 @@ if ($('.text-slider').length == 1) {
   });
   
 
-    
-  
   });
