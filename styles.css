@@ -272,7 +272,7 @@ html {
     }
 
    .intro-subtitle {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 300;
     color: #fff;
     position: absolute;
@@ -283,13 +283,14 @@ html {
   }
   
 
-  .title-txt {
 
-    font-size: 2rem;
+  .title-txt {
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: max-content;
+    text-align: center;
   }
  
    @media (max-width: 768px) {
@@ -304,7 +305,7 @@ html {
     .title-txt {
 
       font-size: 20px;
-
+      padding: 0 10px;
     }
 
     .about-section {
@@ -345,11 +346,11 @@ html {
 }
 
 .about-section {
-
+  text-align: justify;
   padding: 4rem 2rem;
-  width: 60%;
+  width: 42%;
   height: auto;
-  margin: 0 auto;
+  margin:  auto;
   box-shadow: 1px 2px 3px rgba(8, 8, 8, 0.952);
   border-radius: 1rem;
   font-family: 'Ubuntu', sans-serif;
@@ -485,7 +486,7 @@ background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 30px;
-  
+
 }
 
 .containert {
@@ -517,11 +518,7 @@ background-image: linear-gradient(120deg, #4A8EEB, #3354C3);
   list-style: none;
 }
 
-.timeline ul li {
 
-  
-  
-}
 
 .timeline ul li:last-child {
 
